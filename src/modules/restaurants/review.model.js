@@ -22,6 +22,10 @@ export const Review = sequelize.define('reviews', {
     allowNull: false,
     field: 'restaurant_id'
   },
+  rating: {
+    type: DataTypes.INTEGER,
+    allowNull: false,
+  },
   status: {
     type: DataTypes.BOOLEAN,
     allowNull: false,

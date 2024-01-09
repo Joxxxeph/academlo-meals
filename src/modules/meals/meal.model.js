@@ -27,4 +27,4 @@ export const Meal = sequelize.define('meals', {
     defaultValue: true
   },
   
-});
+}); 
